@@ -1,6 +1,6 @@
 {
   "name": "serene-conformation",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A validation middleware for Serene using the Conformation library",
   "main": "index.js",
   "scripts": {
@@ -25,9 +25,9 @@
     "chai": "^3.5.0",
     "express": "^4.13.4",
     "mocha": "^2.4.5",
-    "serene": "^0.10.0",
-    "serene-express": "^0.3.0",
-    "serene-resources": "^0.6.0",
+    "serene": "^0.14.0",
+    "serene-express": "^0.4.0",
+    "serene-resources": "^0.9.0",
     "supertest": "^1.2.0",
     "supertest-as-promised": "^3.1.0"
   },
@@ -37,7 +37,7 @@
   },
   "peerDependencies": {
     "conformation": "^0.12.0",
-    "serene": "^0.10.0",
-    "serene-resources": "^0.6.0"
+    "serene": "^0.14.0",
+    "serene-resources": "^0.9.0"
   }
 }
