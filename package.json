@@ -1,6 +1,6 @@
 {
   "name": "serene-conformation",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "A validation middleware for Serene using the Conformation library",
   "main": "index.js",
   "scripts": {
@@ -36,8 +36,6 @@
     "http-status-errors": "^1.0.0"
   },
   "peerDependencies": {
-    "conformation": "^0.12.0",
-    "serene": "^0.22.0",
-    "serene-resources": "^0.12.0"
+    "conformation": "^0.12.0"
   }
 }
